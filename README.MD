@@ -1,12 +1,16 @@
-# Utils #
+# **UTILS - JS** #
 
-**Utilidades**
-- DependenciesTemplate
-    - Utilizado para construção de templates de tecnologias utilizadas lendo o arquivo package.json
+##### DependenciesTemplate #####
+Utilizado para construção de tabela contendo tecnologias utilizadas na aplicação através o arquivo *package.json*.
 
-	**Utilizando**
+##### Execução #####
+Requer **Node.js**.
+Para execução, execute o seguinte comando:
+```sh
+$ cd DependenciesTemplate
+$ node script.run.js
 ```
-  DEPENDENCIES TEMPLATE
-  Popular o arquivo data.js com as informações necessárias.
-  $ cd DependenciesTemplate/node script.js
-```
+
+##### Próximos Passos #####
+ - Otimização do código.
+ - Deixar estrutura genérica a ponto de inserir colunas e conteúdos livremente.

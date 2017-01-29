@@ -1,9 +1,13 @@
+const path = require('path');
 const fs = require('fs');
-const utils = require('./modules/utils');
-const config = require('./modules/config/script.config');
-const data = require('./data');
 
-fs.readFile('./package.json', 'UTF8', handleFile);
+const core = require('./modules/core');
+const config = require('./script.config');
+const data = require('./script.data');
+
+const input = path.resolve(__dirname, 'package.json');
+
+fs.readFile(input, 'UTF8', handleFile);
 
 function handleFile(err, response) {
 	if (err) throw err;
@@ -22,22 +26,21 @@ function handleFile(err, response) {
 function mountDependencies(dependencies) {
 	const cfg = config.dependencies;
 	const keys = Object.keys(dependencies);
-	const length = utils.getTheBiggestIndex(keys);
+	const dependenciesData = data.dependencies;
 
-	return create(length, keys, cfg);
+	return create(cfg, dependenciesData, keys);
 }
 
 function mountDevDependencies(devDependencies) {
 	const cfg = config.devDependencies;
 	const keys = Object.keys(devDependencies);
-	const length = utils.getTheBiggestIndex(keys);
+	const devDependenciesData = data.devDependencies;
 
-	return create(length, keys, cfg);
+	return create(cfg, devDependenciesData, keys);
 }
 
-function create(length, keys, cfg) {
-	const createTemplate = utils.prepareToCreateTemplate(length, cfg, data);
+function create(cfg, objData, keys) {
+	const createTemplate = core.prepareToCreateTemplate(cfg, objData);
 
-	const output = createTemplate(keys);
-	return output;
+	return createTemplate(keys);
 }
