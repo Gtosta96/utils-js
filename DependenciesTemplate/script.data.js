@@ -8,12 +8,12 @@ const data = {
 		{
 			name: 'babel-loader',
 			url: 'https://github.com/babel/babel-loader',
-			description: 'asdasd'
+			description: ''
 		},
 		{
 			name: 'babel-plugin-react-css-modules',
 			url: 'https://github.com/gajus/babel-plugin-react-css-modules',
-			description: 'fffffffffffffffffffffffffffffffffffffffffff'
+			description: ''
 		},
 		{
 			name: 'babel-preset-es2015',
@@ -110,6 +110,82 @@ const data = {
 		{
 			name: 'webpack-dev-server',
 			url: 'https://webpack.github.io/docs/webpack-dev-server.html',
+			description: ''
+		},
+
+		{
+			name: 'css-loader',
+			url: 'https://github.com/webpack-contrib/css-loader',
+			description: ''
+		},
+		{
+			name: 'file-loader',
+			url: 'https://github.com/webpack-contrib/file-loader',
+			description: ''
+		},
+		{
+			name: 'sass-loader',
+			url: 'https://github.com/jtangelder/sass-loader',
+			description: ''
+		},
+		{
+			name: 'style-loader',
+			url: 'https://github.com/webpack-contrib/style-loader',
+			description: ''
+		},
+		{
+			name: 'stylelint',
+			url: 'https://github.com/stylelint/stylelint',
+			description: ''
+		},
+		{
+			name: 'stylelint-config-sass-guidelines',
+			url: 'https://github.com/bjankord/stylelint-config-sass-guidelines',
+			description: ''
+		},
+		{
+			name: 'stylelint-scss',
+			url: 'https://github.com/kristerkari/stylelint-scss',
+			description: ''
+		},
+		{
+			name: 'stylelint-webpack-plugin',
+			url: 'https://github.com/JaKXz/stylelint-webpack-plugin',
+			description: ''
+		},
+		{
+			name: 'chai',
+			url: 'https://github.com/chaijs/chai',
+			description: ''
+		},
+		{
+			name: 'enzyme',
+			url: 'https://github.com/airbnb/enzyme',
+			description: ''
+		},
+		{
+			name: 'mocha',
+			url: 'https://mochajs.org/',
+			description: ''
+		},
+		{
+			name: 'mocha-loader',
+			url: 'https://github.com/webpack-contrib/mocha-loader',
+			description: ''
+		},
+		{
+			name: 'null-loader',
+			url: 'https://github.com/webpack-contrib/null-loader',
+			description: ''
+		},
+		{
+			name: 'react-addons-test-utils',
+			url: 'https://www.npmjs.com/package/react-addons-test-utils',
+			description: ''
+		},
+		{
+			name: 'node-sass',
+			url: 'https://github.com/sass/node-sass',
 			description: ''
 		}
 	]

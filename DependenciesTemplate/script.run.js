@@ -19,8 +19,31 @@ function handleFile(err, response) {
 	dependencies = mountDependencies(dependencies);
 	devDependencies = mountDevDependencies(devDependencies);
 
-	console.log(dependencies);
-	console.log(devDependencies);
+	// ---------------------------------------------------------- //
+
+	Object.keys(dependencies.template).forEach((key) => {
+		console.log(dependencies.template[key]);
+	});
+
+	console.log('');
+
+	Object.keys(devDependencies.template).forEach((key) => {
+		console.log(devDependencies.template[key]);
+	});
+
+	console.log('');
+
+	Object.keys(dependencies.ref).forEach((key) => {
+		console.log(dependencies.ref[key]);
+	});
+
+	console.log('');
+
+	Object.keys(devDependencies.ref).forEach((key) => {
+		console.log(devDependencies.ref[key]);
+	});
+
+	// ---------------------------------------------------------- //
 }
 
 function mountDependencies(dependencies) {
