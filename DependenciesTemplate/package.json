@@ -14,6 +14,9 @@
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.1",
+    "enzyme": "^2.7.1",
     "eslint": "^3.13.1",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-loader": "^1.6.1",
@@ -23,8 +26,16 @@
     "gulp": "^3.9.1",
     "gulp-debug": "^3.0.0",
     "gulp-shell": "^0.5.2",
+    "file-loader": "^0.9.0",
+    "mocha": "^3.2.0",
+    "mocha-loader": "^1.1.0",
+    "node-sass": "^4.5.0",
+    "null-loader": "^0.1.1",
     "postcss-scss": "^0.4.0",
     "require-dir": "^0.3.1",
+    "react-addons-test-utils": "^15.4.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   }
