@@ -1,7 +1,5 @@
 {
-  "name": "utils",
-  "version": "0.0.1",
-  "dependencies": {
+	"dependencies": {
     "potato": "asd",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",

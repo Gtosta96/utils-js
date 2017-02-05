@@ -1,0 +1,72 @@
+| Dependencias                     | Descrição          | 
+| -------------------------------- |  | 
+| [babel-core]                     |  | 
+| [babel-loader]                   |  | 
+| [babel-plugin-react-css-modules] |  | 
+| [babel-preset-es2015]            |  | 
+| [babel-preset-react]             |  | 
+| [bower]                          |  | 
+| [flux]                           |  | 
+| [react]                          |  | 
+| [react-dom]                      |  | 
+ 
+ | DevDependencias                    | Descrição          | 
+| ---------------------------------- |  | 
+| [chai]                             |  | 
+| [css-loader]                       |  | 
+| [enzyme]                           |  | 
+| [eslint]                           |  | 
+| [eslint-config-airbnb]             |  | 
+| [eslint-loader]                    |  | 
+| [eslint-plugin-import]             |  | 
+| [eslint-plugin-jsx-a11y]           |  | 
+| [eslint-plugin-react]              |  | 
+| [gulp]                             |  | 
+| [gulp-debug]                       |  | 
+| [gulp-shell]                       |  | 
+| [file-loader]                      |  | 
+| [mocha]                            |  | 
+| [mocha-loader]                     |  | 
+| [node-sass]                        |  | 
+| [null-loader]                      |  | 
+| [postcss-scss]                     |  | 
+| [require-dir]                      |  | 
+| [react-addons-test-utils]          |  | 
+| [sass-loader]                      |  | 
+| [style-loader]                     |  | 
+| [webpack]                          |  | 
+| [webpack-dev-server]               |  | 
+ 
+ [babel-core]: http://babeljs.io/docs/core-packages/#core 
+[babel-loader]: https://github.com/babel/babel-loader 
+[babel-plugin-react-css-modules]: https://github.com/gajus/babel-plugin-react-css-modules 
+[babel-preset-es2015]: https://babeljs.io/docs/plugins/preset-es2015/ 
+[babel-preset-react]: https://facebook.github.io/react/ 
+[bower]: https://bower.io/ 
+[flux]: https://facebook.github.io/flux/ 
+[react]: https://facebook.github.io/react/ 
+[react-dom]: https://facebook.github.io/react/docs/react-dom.html 
+ [chai]: https://github.com/chaijs/chai 
+[css-loader]: https://github.com/webpack-contrib/css-loader 
+[enzyme]: https://github.com/airbnb/enzyme 
+[eslint]: http://eslint.org/ 
+[eslint-config-airbnb]: https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb 
+[eslint-loader]: https://github.com/MoOx/eslint-loader 
+[eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import 
+[eslint-plugin-jsx-a11y]: https://github.com/evcohen/eslint-plugin-jsx-a11y 
+[eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react 
+[gulp]: http://gulpjs.com/ 
+[gulp-debug]: https://github.com/sindresorhus/gulp-debug 
+[gulp-shell]: https://github.com/sun-zheng-an/gulp-shell 
+[file-loader]: https://github.com/webpack-contrib/file-loader 
+[mocha]: https://mochajs.org/ 
+[mocha-loader]: https://github.com/webpack-contrib/mocha-loader 
+[node-sass]: https://github.com/sass/node-sass 
+[null-loader]: https://github.com/webpack-contrib/null-loader 
+[postcss-scss]: https://github.com/postcss/postcss-scss 
+[require-dir]: https://github.com/aseemk/requireDir 
+[react-addons-test-utils]: https://www.npmjs.com/package/react-addons-test-utils 
+[sass-loader]: https://github.com/jtangelder/sass-loader 
+[style-loader]: https://github.com/webpack-contrib/style-loader 
+[webpack]: https://webpack.github.io/ 
+[webpack-dev-server]: https://webpack.github.io/docs/webpack-dev-server.html 
