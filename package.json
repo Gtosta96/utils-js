@@ -1,0 +1,19 @@
+{
+  "name": "utils-js",
+  "version": "1.0.0",
+  "description": "Utilizado para construção de tabela contendo tecnologias utilizadas na aplicação através o arquivo *package.json*.",
+  "main": "index.js",
+  "scripts": {
+    "dt": "node DependenciesTemplate/script.run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gtosta96/utils-js.git"
+  },
+  "author": "Gtosta96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gtosta96/utils-js/issues"
+  },
+  "homepage": "https://github.com/Gtosta96/utils-js#readme"
+}

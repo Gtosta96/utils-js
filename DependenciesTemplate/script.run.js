@@ -5,7 +5,7 @@ const core = require('./modules/core');
 const config = require('./script.config');
 const data = require('./script.data');
 
-const input = path.resolve(__dirname, 'package.json');
+const input = path.resolve(__dirname, 'dependencies.json');
 
 fs.readFile(input, 'UTF8', handleFile);
 
@@ -21,27 +21,29 @@ function handleFile(err, response) {
 
 	// ---------------------------------------------------------- //
 
-	Object.keys(dependencies.template).forEach((key) => {
-		console.log(dependencies.template[key]);
-	});
+	const dependenciesTemplate = Object.keys(dependencies.template).reduce((result, key) => {
+		result += `${dependencies.template[key]} \n`;
+		return result;
+	}, '');
 
-	console.log('');
+	const devDependenciesTemplate = Object.keys(devDependencies.template).reduce((result, key) => {
+		result += `${devDependencies.template[key]} \n`;
+		return result;
+	}, '');
 
-	Object.keys(devDependencies.template).forEach((key) => {
-		console.log(devDependencies.template[key]);
-	});
+	const dependenciesRef = Object.keys(dependencies.ref).reduce((result, key) => {
+		result += `${dependencies.ref[key]} \n`;
+		return result;
+	}, '');
 
-	console.log('');
+	const devDependenciesRef = Object.keys(devDependencies.ref).reduce((result, key) => {
+		result += `${devDependencies.ref[key]} \n`;
+		return result;
+	}, '');
 
-	Object.keys(dependencies.ref).forEach((key) => {
-		console.log(dependencies.ref[key]);
-	});
+	const finalData = `${dependenciesTemplate} \n ${devDependenciesTemplate} \n ${dependenciesRef} ${devDependenciesRef}`;
 
-	console.log('');
-
-	Object.keys(devDependencies.ref).forEach((key) => {
-		console.log(devDependencies.ref[key]);
-	});
+	fs.writeFile('dependenciesTemplate.txt', finalData);
 
 	// ---------------------------------------------------------- //
 }

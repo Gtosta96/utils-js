@@ -5,6 +5,7 @@ const logic = {
 };
 
 function prepareToCreateTemplate(config, data) {
+	debugger;
 	let spacesArray;
 	return function createTemplate(keys) {
 		const reducedData = util.reduceData(data, keys);
