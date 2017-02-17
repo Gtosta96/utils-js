@@ -1,6 +1,46 @@
 const data = {
 	dependencies: [
 		{
+			name: 'axios',
+			url: 'https://github.com/mzabriskie/axios',
+			description: ''
+		},
+		{
+			name: 'react-redux',
+			url: 'https://github.com/reactjs/react-redux',
+			description: ''
+		},
+		{
+			name: 'react-router',
+			url: 'https://github.com/ReactTraining/',
+			description: ''
+		},
+		{
+			name: 'react-router-redux',
+			url: 'https://github.com/reactjs/react-router-redux',
+			description: ''
+		},
+		{
+			name: 'reduce-reducers',
+			url: 'https://github.com/acdlite/reduce-reducers',
+			description: ''
+		},
+		{
+			name: 'redux',
+			url: 'https://github.com/reactjs/redux',
+			description: ''
+		},
+		{
+			name: 'redux-devtools-extension',
+			url: 'https://github.com/zalmoxisus/redux-devtools-extension',
+			description: ''
+		},
+		{
+			name: 'redux-thunk',
+			url: 'https://github.com/gaearon/redux-thunk',
+			description: ''
+		},
+		{
 			name: 'babel-core',
 			url: 'http://babeljs.io/docs/core-packages/#core',
 			description: ''
@@ -47,6 +87,11 @@ const data = {
 		}
 	],
 	devDependencies: [
+		{
+			name: 'babel-plugin-transform-object-rest-spread',
+			url: 'https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-rest-spread',
+			description: ''
+		},
 		{
 			name: 'eslint',
 			url: 'http://eslint.org/',
@@ -186,6 +231,21 @@ const data = {
 		{
 			name: 'node-sass',
 			url: 'https://github.com/sass/node-sass',
+			description: ''
+		},
+		{
+			name: 'extract-text-webpack-plugin',
+			url: 'https://github.com/webpack-contrib/extract-text-webpack-plugin',
+			description: ''
+		},
+		{
+			name: 'redux-logger',
+			url: 'https://github.com/evgenyrodionov/redux-logger',
+			description: ''
+		},
+		{
+			name: 'rimraf',
+			url: 'https://github.com/isaacs/rimraf',
 			description: ''
 		}
 	]
